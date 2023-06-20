@@ -1,0 +1,65 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+.button-container {
+  position: relative;
+  height: 100vh; /* Adjust the height according to your needs */
+}
+
+.top-right {
+  align-items: baseline;
+  color: black;
+  background-color: aqua;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.top-left {
+  align-items: baseline;
+  color: aqua;
+  background-color: brown;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.center {
+  align-items: baseline;
+  color: white;
+  background-color:blue;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.bottom-right {
+  align-items: baseline;
+  color: black;
+  background-color: red;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.bottom-left {
+  align-items: baseline;
+  color: chocolate;
+  background-color: white;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
